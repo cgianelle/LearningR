@@ -11,8 +11,10 @@ getUserInput <- function(message) {
     write(message, stdout())
     open(f)
     if(nchar(line <- readLines(f,n=1)) > 0) {
+      close(f)
       return(line) 
     } else {
+      close(f)
       return("")
     }
   }
