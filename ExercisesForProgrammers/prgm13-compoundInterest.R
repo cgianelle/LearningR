@@ -48,6 +48,7 @@ formatOutput <- function(input, amount) {
   amount <- paste("$", amount, sep="")
   return(paste(principle, "at", rate, "for", getYears(input), "years compounded", getCompounded(input), "times per year is", amount, sep=" "))
 }
+
 main <- function() {
   input <- getInput()
   if (!is.null(input)) {
