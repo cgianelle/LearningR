@@ -9,5 +9,5 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Exercises For Programmers
 
-The program examples included here are my solutions to the problems stated in the book [Exercises for Programmers](https://pragprog.com/book/bhwb/exercises-for-programmers).
+The program examples included here are my solutions to the problems stated in the book [Exercises for Programmers](https://pragprog.com/book/bhwb/exercises-for-programmers). These exercises help in grasping the basics of the language.
 
